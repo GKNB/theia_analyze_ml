@@ -1,0 +1,17 @@
+toy_complex_quad_mix:
+
+Trying to test which one is more accurate using a tot model
+    1). fit for quad term separately, and subtract it from data, then use ML to fit for the remaining term
+    2). fit for the original data directly using ML
+
+====================================================================================
+
+quadratic_fit:
+
+Trying to fit the original data set using quadratic form at different value of x and y to see if a and b are consistent
+
+Failed! At different position, even the value of a are different, when fitting y vs x1 or y vs x2. Also, if I perform a quadratic form fit for y vs x1 and x2, the absolute difference is very large, suggesting the chisq term is also very large and different from a quadratic function
+
+
+
+Ask to save data in the format of (x1, x2, ..., y), instead of (x1_index, x2_index, ... ,y), also save sigma_i in the first k lines
